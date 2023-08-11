@@ -50,15 +50,26 @@ function renderBreeds(breeds){
     const breedLi= document.createElement("li")
       breedLi.textContent = breed;
 
+
+        // Add click event listener to breedLi
+        breedLi.addEventListener("click", ()=>{
+            console.log("Clicked")
+            breedLi.style.color= "yellow";
+         })
+
         breedUl.appendChild(breedLi);
+
     }
     
+
 }
 const breedDiv = document.createElement("div");
     document.body.append(breedDiv);
     
-
-
     dogBreeds()
+
+    
+
+
 });
 
