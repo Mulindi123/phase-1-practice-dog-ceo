@@ -1,0 +1,36 @@
+
+#dog-image-container {
+
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  #dog-images {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #dog-images li {
+    border: 20px solid #ccc;
+    padding: 20px;
+    overflow: hidden;
+  }
+  #dog-images li img {
+    width: 150px;
+    height: 150px; /* Maintain aspect ratio */
+  }
+
+  #breed-dropdown {
+    margin-top: 20px;
+  }
+  
+  #dog-breeds {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
